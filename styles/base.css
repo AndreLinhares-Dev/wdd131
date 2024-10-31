@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #1D3E59;
+    --secondary-color: white;
+}
+
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -22,15 +27,19 @@ header {
 #links-nav {
     background-color: black;
     display: flex;
-    gap: 150px;
     justify-content: center;
 }
 
-nav a {
-    padding: 20px;
+#links-nav a {
+    padding: 20px 70px 20px 70px;
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+
+#links-nav a:hover {
+    background-color: var(--primary-color);
+    border: 5px black solid;
 }
 
 .content {
@@ -38,7 +47,7 @@ nav a {
     grid-template-columns: 3fr 1fr;
     padding: 50px;
     gap: 10px;
-    
+
 
 }
 
@@ -55,7 +64,7 @@ main {
     background-color: gainsboro;
     border: 3px black solid;
     border-radius: 10px;
-
+    max-width: fit-content;
 }
 
 .card {
@@ -85,15 +94,15 @@ main {
 
 #brazil-flag-img {
     width: 250px;
-    }
+}
 
 #section-aside {
-    
+
     background-color: gainsboro;
     border: 3px black solid;
-    border-radius:10px;
+    border-radius: 10px;
     justify-items: center;
-    
+
 }
 
 
@@ -105,13 +114,15 @@ main {
     color: white;
     width: 98.5%;
     border-radius: 9px 9px 0 0;
-    
+
 }
 
 .dev-list a {
-    color: blue; /* Sets link text color to blue */
-    text-decoration: underline; /* Adds underline to links */
-  }
+    color: blue;
+    /* Sets link text color to blue */
+    text-decoration: underline;
+    /* Adds underline to links */
+}
 
 
 
@@ -120,12 +131,12 @@ footer {
     background-color: #1D3E59;
     text-align: center;
     padding: 15px;
-} 
+}
 
 #footerh3 {
     color: white;
 }
 
 #lastmodified-p {
-color: yellow;
+    color: yellow;
 }
