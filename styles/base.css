@@ -81,6 +81,7 @@ main {
 
 #author-pic {
     width: 150px;
+    border: black 2px solid;
 }
 
 #country-h2 {
