@@ -1,0 +1,68 @@
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal
+    
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    background-color: #831aa5;
+}
+
+.menu a {
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-top: 1px solid #444;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.title-temple {
+  font-size: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #831aa5;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu-button {
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #fff;
+}
+
+.imgtemple {
+    width: 300px; /* Set the desired width */
+    margin: 0 auto; /* Center the figure if needed */
+}
+
+.imgtemple img {
+    width: 100%; /* Makes the image fit within the figure's width */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+footer {
+    background-color: #831aa5;
+    text-align: center;
+    padding: 15px;
+}
+
+#footerh3 {
+    color: white;
+}
+
+#lastmodified-p {
+    color: yellow;
+}
