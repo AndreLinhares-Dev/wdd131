@@ -5,6 +5,10 @@ body {
     
 }
 
+div {
+    display: flex;
+}
+
 .menu {
     display: none;
     flex-direction: column;
