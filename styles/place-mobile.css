@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #1D3E59;
-    --secondary-color: white;
+    --primary-color: rgb(219, 219, 20);
+    --secondary-color:green solid ;
 }
 
 * {
@@ -11,8 +11,8 @@
 
 /* Header styling */
 header {
-    background-color: rgb(219, 219, 20);
-    border-bottom: green solid 20px;
+    background-color: var(--primary-color);
+    border-bottom: var(--secondary-color) 20px;
     width: 100vw;
     height: 100%;
     padding: 15px;
