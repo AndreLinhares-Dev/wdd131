@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    background-color: rgb(219, 219, 20);
+    border-bottom: green solid 20px;
+    width: 100vw;
+    height: 100%;
+    padding: 15px;
+    text-align: center; /* Centers the text in the header */
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.info-box {
+    width: 100vw; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+    overflow-y: auto; 
+text-align: center;}
+
+.info-item {
+    margin: 8px 0;
+}
+
+.info-item strong {
+    font-weight: bold;
+}
+
+.img-hero-mobile {
+    width: 100vw; 
+    height: 100vh;
+    object-fit: cover
+}
+
+#weather {
+    width: 100vw; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    overflow-y: auto;
+text-align: center;
+}
+
+h2 {
+    padding: 15px;
+}
+    
+
+#cloud-icon {
+  width: 50px;
+  height: 50px;  
+}
+
+footer {
+    background-color: rgb(219, 219, 20);
+    text-align: center;
+    padding: 15px;
+}

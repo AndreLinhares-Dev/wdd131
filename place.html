@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country | Andre Linhares</title>
+    <link rel="stylesheet" href="styles/place-mobile.css">
+    <link rel="stylesheet" href="styles/place.css">
+    <meta name="description"
+        content="This is a website for a excersise of a country exibition for student Andre Linhares to repository WDD131">
+    <meta name="author" content="Andre Linhares de Souza">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Brasil</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/bicho-fullscreen.webp" media="(min-width: 1000px)">
+                <img class="img-hero-mobile" src="images/bicho-mobile.webp" alt="Temple name and Location">
+            </picture>
+        </div>
+                
+                <div class="info-box">
+                    <h2>Data</h2>
+                    <div class="info-item"><strong>Area:</strong> 8,515,767 km²</div>
+                    <div class="info-item"><strong>Population:</strong> 213 million</div>
+                    <div class="info-item"><strong>Capital:</strong> Brasília</div>
+                    <div class="info-item"><strong>Languages:</strong> Portuguese</div>
+                    <div class="info-item"><strong>Currency:</strong> Brazilian Real (BRL)</div>
+                    <div class="info-item"><strong>Time Zone:</strong> UTC-3</div>
+                    <div class="info-item"><strong>Calling Code:</strong> +55</div>
+                    <div class="info-item"><strong>Internet TLD:</strong> .br</div>
+                </div>
+
+
+
+                <div id="weather">
+                    <h2>Weather</h2>
+                    <img id="cloud-icon" src="images/weather-cloud-icon.svg" alt="weather-cloud-icon">
+                    <p class="info-item" id="temperature"><strong>Temperature:</strong> 25°C</p>
+                    <p class="info-item" id="conditions"><strong>Conditions:</strong> Partly Cloudy</p>
+                    <p class="info-item" id="windSpeed"><strong>Wind Speed:</strong> 15 km/h</p>
+                    <p class="info-item" id="windChill"><strong>Wind Chill:</strong> 24°C</p>
+                </div>
+    </main>
+
+    <footer>
+        <h3 id="footerh3">&#169; 2024 | Andre Linhares de Souza | Brazil</h3>
+        <p id="lastmodified-p">Last Modification: <span id="last-modified"></span></p>
+    </footer>
+</body>
+
+</html>
