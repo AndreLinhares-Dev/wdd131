@@ -1,4 +1,7 @@
-
+:root {
+    --primary-color: #1D3E59;
+    --secondary-color: white;
+}
 
 @media (min-width: 768px) {
 
