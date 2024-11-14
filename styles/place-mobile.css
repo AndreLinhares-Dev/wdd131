@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #1D3E59;
+    --secondary-color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -71,4 +76,10 @@ footer {
     background-color: rgb(219, 219, 20);
     text-align: center;
     padding: 15px;
+    
+}
+
+footer::first-letter {
+    color: green;
+    font-size: xx-large;
 }
