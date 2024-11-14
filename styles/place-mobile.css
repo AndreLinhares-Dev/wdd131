@@ -83,3 +83,7 @@ footer::first-letter {
     color: green;
     font-size: xx-large;
 }
+
+h1::after {
+    content: "🇧🇷";
+}

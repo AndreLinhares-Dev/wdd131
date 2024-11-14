@@ -26,9 +26,13 @@
         width: 350px;
     }
 
+}
+    h1::after {
+        content: "🇧🇷";
 
+}
 
-
-
-
+footer::first-letter {
+    color: green;
+    font-size: xx-large;
 }
