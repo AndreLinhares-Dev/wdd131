@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a website for form assignment">
+    <meta name="author" content="Andre Linhares">
+
+    
+    <title>Form Assignment</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="styles/forms-normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="styles/forms-small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="styles/forms-medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="styles/forms-large.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <header>
+        <h1>PRODUCT REVIEW</h1>
+    </header>
+
+
+
+
+    <!-- CONTENT HERE -->
+    <main>
+
+        
+        <h1>Course Proposal Application</h1>
+        <form method="get" action="thanks.html" class="wf1">
+
+            
+            <fieldset>
+                <legend>Product Name</legend>
+
+                    <select name="subject">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="software">Software Development</option>
+                        <option value="creative">Creative Professional</option>
+                        <option value="info">Information Technology</option>
+                    </select>
+                </label>
+
+
+                <fieldset>
+                    <legend>Overall Rating</legend>
+                    
+                    <label><input type="radio" name="audience" value="1star"> &#9733;</label>
+                    <label><input type="radio" name="audience" value="2star"> &#9733; &#9733;</label>
+                    <label><input type="radio" name="audience" value="3star"> &#9733; &#9733; &#9733;</label>
+                    <label><input type="radio" name="audience" value="3star"> &#9733; &#9733; &#9733; &#9733;</label>
+                    <label><input type="radio" name="audience" value="3star"> &#9733; &#9733; &#9733; &#9733; &#9733;</label>
+                </fieldset>
+
+                
+            <div>Which features did you find useful in the product? &#40;Check all that apply&#41;</div>
+            <label> <input type="checkbox" name="durability" value="yes">Durability</label>
+            <label> <input type="checkbox" name="ease" value="yes">Ease of Use</label>
+            <label> <input type="checkbox" name="performance" value="yes">Performance</label>
+            <label> <input type="checkbox" name="design" value="yes">Design</label>
+
+            <label>Date of Instalation <input type="date" name="completeDate" id=""> </label>
+
+            <label> Written Review <input type="text" name="review"> </label>
+
+            <label>Your Name* <input type="text" name="username" required> </label>
+            
+</fieldset>
+
+            <input type="submit" value="Post Review">
+
+        </form>
+
+
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        &copy; 2024 &bull; Paul Cheney &bull; 123-555-6789
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
