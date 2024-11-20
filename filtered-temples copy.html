@@ -16,28 +16,22 @@
 </head>
 
 <body>
-    <header class="header">
-        <div>
-            <h1 class="title-temple">Temple Album</h1>
-            <button class="menu-button" onclick="toggleMenu()">☰</button>        
-        </div>
-    
-            <nav class="menu" id="menu" style="display: flex;">
-                <a href="#" id="homeLink">Home</a>
-                <a href="#" id="oldLink">Old</a>
-                <a href="#" id="newLink">New</a>
-                <a href="#" id="largeLink">Large</a>
-                <a href="#" id="smallLink">Small</a>
-            </nav>
-        </header>
+    <header>
+        <h1>Temples</h1>
+        <button class="menu-icon" onclick="toggleMenu()">☰</button>
+        <nav class="nav-menu">
+            <ul>
+                <li><button onclick="showAllTemples()">Home</button></li>
+                <li><button onclick="showOldTemples()">Old</button></li>
+                <li><button onclick="showNewTemples()">New</button></li>
+                <li><button onclick="showLargeTemples()">Big</button></li>
+                <li><button onclick="showSmallTemples()">Small</button></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
-        <h2>Temple Album</h2>
-        <section class="gallery">
-           
-
-
-        </section>
+        <div id="temple-container"></div>
     </main>
 
     <footer>
