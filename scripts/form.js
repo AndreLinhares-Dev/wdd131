@@ -43,3 +43,17 @@ const products = [
     option.textContent = product.name; // Set the text to the product name
     selectElement.appendChild(option); // Append the <option> to the <select>
   });
+
+  if (!localStorage.getItem('formSubmissionsCounter')) {
+    localStorage.setItem('formSubmissionsCounter', 0);
+}
+
+const form = document.querySelector('form');
+form.addEventListener('submit', function() {
+    // increment form submissions counter
+    let counter = localStorage.getItem('formSubmissionsCounter');
+    counter++;
+    localStorage.setItem('formSubmissionsCounter', counter);
+});
+
+const formSubmissionsCounter = localStorage.getItem('formSubmissionsCounter');
