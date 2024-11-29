@@ -170,9 +170,22 @@ h4 {
     border-color: var(--forth-color);
 }
 
+/* TOPICOS */
+
+.topic-title {
+    padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+
+.hero-topic {
+    max-width: 390px;
+}
+
+
 /* FOOTER SPACE */
 footer {
-    background-color: #831aa5;
+    background-color: var(--third-color);
     text-align: center;
     padding: 15px;
 }
