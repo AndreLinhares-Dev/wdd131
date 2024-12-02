@@ -34,6 +34,13 @@
       "contact_reason": "email",
       "message": "test",
       "subscribe_to_newsletter": true
+    },
+    {
+      "name": "",
+      "email": "joaosouza@joao.com",
+      "contact_reason": "email",
+      "message": "test",
+      "subscribe_to_newsletter": false
     }
   ]
 }
