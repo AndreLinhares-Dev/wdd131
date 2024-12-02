@@ -13,6 +13,13 @@
       "contact_reason": "email",
       "message": "Test",
       "subscribe_to_newsletter": true
+    },
+    {
+      "name": "test",
+      "email": "Test@test.com",
+      "contact_reason": "email",
+      "message": "Test",
+      "subscribe_to_newsletter": true
     }
   ]
 }
