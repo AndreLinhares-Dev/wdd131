@@ -6,6 +6,13 @@
       "contact_reason": "email",
       "message": "Test",
       "subscribe_to_newsletter": false
+    },
+    {
+      "name": "Test",
+      "email": "Test@test.com",
+      "contact_reason": "email",
+      "message": "Test",
+      "subscribe_to_newsletter": true
     }
   ]
 }
