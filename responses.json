@@ -41,6 +41,13 @@
       "contact_reason": "email",
       "message": "test",
       "subscribe_to_newsletter": false
+    },
+    {
+      "name": "joao",
+      "email": "joaosouza@joao.com",
+      "contact_reason": "mail",
+      "message": "bora bora\n",
+      "subscribe_to_newsletter": false
     }
   ]
 }
