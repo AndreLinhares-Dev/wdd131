@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f9ff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #3D8AF7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* Main Content Styling */
+main {
+    margin-top: 20px;
+}
+
+/* Section Styling */
+section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #0C59CF;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #006E8C;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section h3 {
+    color: #006E8C;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+section p {
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #006E8C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Color Schema Styling */
+section p strong {
+    color: #0C59CF;
+    font-weight: bold;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    section h2 {
+        font-size: 1.25rem;
+    }
+}
+
+/* General styling for all divs */
+div[class^="colors"] {
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px; /* Adds rounded corners */
+  }
+  
+  /* Specific colors for each div */
+  .colors1 {
+    background-color: #2c2c2a; /* Jet */
+    color: white;
+  }
+  
+  .colors2 {
+    background-color: #006E8C; /* Cerulean */
+    color: white;
+  }
+  
+  .colors3 {
+    background-color: #0C59CF; /* Tang Blue */
+  }
+  
+  .colors4 {
+    background-color: white;
+    color: black; /* Adjust text color for visibility */
+    border: 2px solid black
+    
+  }
+  
+  .white {
+    color: black;
+  }

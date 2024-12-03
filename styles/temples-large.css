@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+    .menu-button {
+        display: none; /
+    }
+    
+    .menu {
+        display: flex; /* Show menu as a flex container */
+        flex-direction: row; /* Arrange items horizontally */
+        background-color: transparent;
+        width: auto;
+    }
+    
+    .menu a {
+        padding: 10px 20px;
+        border: none;
+    }
+    
+    .menu a:hover {
+        background-color: #444; 
+    }
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        gap: 10px;
+        padding: 20px;
+    }
+    
+    .imgtemple img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    }
+    
+    figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    }
+}
+

@@ -1,0 +1,19 @@
+{
+    "responses": [
+        {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "contact_reason": "General Inquiry",
+            "message": "I have a question about your services.",
+            "subscribe_to_newsletter": true
+        },
+        {
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "contact_reason": "Reservation Question",
+            "message": "Can I book a trip for next week?",
+            "subscribe_to_newsletter": false
+        }
+    ]
+}
+

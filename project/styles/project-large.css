@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #2c2c2a;
+    --secondary-color: white;
+    --third-color: #006E8C;
+    --forth-color: #0C59CF;
+
+}
+
+@media (min-width: 900px) {
+    /* General page layout */
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+.news-h3 {
+    font-size: 50px;
+   }
+
+   .other-topics {
+    padding: 10px 300px 10px 300px;
+   }
+
+   h4 {
+    font-size:35px ;
+   }
+
+    /* Logo site position */
+    .logo-website {
+        width: 300px; /* Adjust size as needed */
+        position: absolute;
+        top: 60px;
+        left: 20px;
+    }
+
+    /* Header adjustments */
+    .header-slogan {
+        width: 100%;
+    }
+
+    .other-topics {
+        padding:  2px 30px 2px 30px;
+    }
+
+    .header2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        padding: 20px 0px;
+        background-color: #f9f9f9; /* Optional: Adjust background color */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    }
+
+    /* Navigation buttons */
+    .header2 .links {
+        display: flex;
+        gap: 20px; /* Space between buttons */
+        right: 40%;
+    
+    }
+
+    .header2 .links a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333; /* Adjust text color */
+        padding: 10px 20px;
+        border: 1px solid #ddd; /* Optional: Add borders */
+        border-radius: 5px; /* Optional: Rounded corners */
+        background-color: #fff; /* Optional: Add background */
+        transition: background-color 0.3s ease;
+    }
+
+    .header2 .links a:hover {
+        background-color: #f0f0f0; /* Optional: Hover effect */
+    }
+
+    /* Remove the toggle button */
+    .toggle-button {
+        display: none;
+    }
+    .hero-topic {
+        max-width: 600px;
+        padding-left: 20%;
+    }
+    #employees {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    
+    }
+    
+    #showcaseemployees img{
+    
+        display: inline;
+        opacity: 0.9;
+        padding: 2px;
+        border: black solid 1px;
+        border-radius: 2px;
+        width: 380px;
+     
+    }
+}
